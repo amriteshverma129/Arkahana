@@ -7,7 +7,7 @@ featuredImage: /image/post1.jpg
 <h2>Post1</h2>
 <br/>
 <img src="{{ featuredImage | url }}" width="200px" height="200px" alt="{{ featuredImage }}"></img>
-{%  for post in collection.posts %}
+{%  for post in posts %}
 <h2>`${post.title}`</h2>
 <br/>
 <img src=`${post.featuredImage}` width="200px" height="200px" alt=`${post.featuredImage}`></img>

@@ -6,11 +6,12 @@ media_folder: "_site/Image"
 public_folder: "/Image"
 
 collections:
-    name: "posts"
+  - name: "posts"
     label: "Posts"
-    folder: "_site/_data"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-       { name: "title", widget: "string" }
-       { name: "featuredImage", widget: "image" }   
+    files:
+    - file: "src/_data/posts.json"
+      label: "Posts"
+      name: "posts"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Featured Image", name: "featuredImage", widget: "image" }
