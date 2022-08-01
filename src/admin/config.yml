@@ -12,6 +12,7 @@ collections:
     - file: "src/_data/posts.json"
       label: "Posts"
       name: "posts"
+      widget: "list"
       fields:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Featured Image", name: "featuredImage", widget: "image" }
