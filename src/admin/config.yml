@@ -6,17 +6,11 @@ media_folder: "_site/Image"
 public_folder: "/Image"
 
 collections:
-  - name: "posts"
+    name: "posts"
     label: "Posts"
-    folder: "_data"
+    folder: "_site/_data"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "layout/post.html",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Featured Image", name: "featuredImage", widget: "image" }   
+       { name: "title", widget: "string" }
+       { name: "featuredImage", widget: "image" }   
