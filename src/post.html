@@ -1,0 +1,14 @@
+---
+layout: layout/post.html
+title: Post
+featuredImage: /image/post1.jpg
+---
+
+<h2>Post1</h2>
+<br/>
+<img src="{{ featuredImage | url }}" width="200px" height="200px" alt="{{ featuredImage }}"></img>
+{%  for post in collection.posts %}
+<h2>`${post.title}`</h2>
+<br/>
+<img src=`${post.src}` width="200px" height="200px" alt=`${post.src}`></img>
+{%  endfor %}
