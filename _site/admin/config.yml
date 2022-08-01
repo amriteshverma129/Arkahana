@@ -11,12 +11,5 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "layouts/post.html",
-        }
       - { label: "Title", name: "title", widget: "string" }
-     - { label: "Post Body", name: "body", widget: "html" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
