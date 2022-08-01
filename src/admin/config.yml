@@ -20,4 +20,4 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Post Body", name: "body", widget: "html" }
-- { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }   
