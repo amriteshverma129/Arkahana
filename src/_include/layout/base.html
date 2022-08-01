@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include "basehead.html" %}
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <div class="nav">
+            <nav class="navbar">
+                <span class="tab" style="border-right: 1px solid black;padding-right:10px"><a href="/">Home</a></span>
+                <span class="tab"  style="border-right: 1px solid black;padding-right :10px"><a href="/contact">Contact</a></span>
+                <span class="tab"><a href="/about">About</a></span>
+            </nav>
+        </div>
+        <div class="line"></div>
+        <div class="body2">
+            {{ content | safe }} 
+        </div>
+    </body>
+    <script src="/Javascript/functionality.js" ></script>
+</html>
+
+

@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(203, 253, 253); 
+    color: black;
+}
+.body2{
+     background-image: url('/Image/backImg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+}
+.home{
+    padding :10px;
+    margin-top:10vh;
+}
+.superHeading{
+    font-size: 70px;
+    color: blue;
+}
+.about{
+    padding :10px;
+    margin-top:10vh;
+}
+.contact{
+    padding :10px;
+    margin-top:10vh;
+}
+.nav {
+    width:100vw;
+    height:55px;
+    padding:5px;
+    background-color: rgb(203, 253, 253);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.tab {
+     font-size: 20px;
+     padding:5px;
+     margin: auto 5px;
+}
+.tab a{
+    text-decoration: none;
+    color:black;
+}
+.line {
+    width: 100%;
+    height:3px;
+    background-color: white;
+}

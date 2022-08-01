@@ -1,0 +1,15 @@
+---
+layout: layout/contact.html
+title: Contact Page
+description : "I am on contact page"
+---
+
+<div class="contact">
+    <h1 style="font-size:40px">{{title}}</h1>
+    <button type="button" onclick="handleClick()" style="padding:5px 10px; background-color:rgb(117, 117, 238); margin:5px; border-radius: 3px;border: none;">click Here</button>
+</div>
+{%  for card in card %}
+{% card title=card.title ,link="/contact", linkText="Go To Contact" %}
+{%  endfor %}
+
+
