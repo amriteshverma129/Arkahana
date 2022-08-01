@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig){
   eleventyConfig.addPassthroughCopy('./src/Style');
   eleventyConfig.addPassthroughCopy('./src/Javascript');
   eleventyConfig.addPassthroughCopy('./src/Image');
+  eleventyConfig.addPassthroughCopy('./src/admin');
   eleventyConfig.addShortcode("card", Card)
     return {
         dir:{
