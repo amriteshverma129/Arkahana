@@ -19,5 +19,4 @@ collections:
           default: "layout/post.html",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Post Body", name: "body", widget: "html" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }   
