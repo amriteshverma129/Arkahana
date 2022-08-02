@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "title": "Post1",
+      "featuredImage": "/Image/post2.jpg"
+    },
+    {
+      "title": "Post2",
+      "featuredImage": "/Image/post3.jpg"
+    }
+  ]
+}
