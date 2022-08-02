@@ -7,6 +7,10 @@
     {
       "title": "Post2",
       "featuredImage": "/Image/post3.jpg"
+    },
+    {
+      "title": "Post3",
+      "featuredImage": "/Image/backImg.jpg"
     }
   ]
 }
