@@ -6,10 +6,16 @@ media_folder: "_site/Image"
 public_folder: "/Image"
 
 collections:
-  - name: "posts"
+  - name: "PostList"
     label: "Posts"
-    files: "src/_data/posts.json"
-    extension: "json"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+    files:
+      - label: "posts"
+        name: "posts"
+        file: "src/_data/posts.json"
+        fields:
+          - label: "Post List"
+            name: "posts"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Featured Image", name: "featuredImage", widget: "image" }
