@@ -8,10 +8,8 @@ public_folder: "/Image"
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "src/_data/_posts"
-    create: true
+    files: "src/_data/posts.json"
     extension: "json"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
