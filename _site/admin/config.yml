@@ -15,4 +15,3 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Featured Image", name: "featuredImage", widget: "image" }
-            widget: "list"
